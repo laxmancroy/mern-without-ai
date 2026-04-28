@@ -5,10 +5,10 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 import App from './App';
+import './index.css'
 
-root.render
-  (
-    <StrictMode>
-      <App />
-    </StrictMode>
-  )
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
