@@ -30,7 +30,7 @@ export function Header() {
                 </nav>
 
                 {/* Mobile Navigation Bar */}
-                <span className="sm:hidden" onClick={mobileMenu}><IoMenu /></span>
+                <span className="sm:hidden cursor-pointer" onClick={mobileMenu}><IoMenu /></span>
                 {isMenuOpen && <nav className="bg-blue-600 absolute top-full right-0 flex flex-col items-center justify-between p-5 *:rounded-md *:hover:bg-white *:hover:text-black *:px-2 *:m-2 *:hover:cursor-pointer">
                     {
                         navBar.map((item) => (
