@@ -1,5 +1,5 @@
 const skillList = [
-    { name: "HTML", icon: "" }
+    { name: "HTML", icon: "" },
     { name: "CSS", icon: "" },
     { name: "JavaScript", icon: "" },
     { name: "ReactJS", icon: "" },
@@ -9,7 +9,7 @@ const skillList = [
     { name: "Git", icon: "" },
     { name: "Docker", icon: "" },
     { name: "TypeScript", icon: "" }
-]
+];
 
 export function Skills() {
     return (
