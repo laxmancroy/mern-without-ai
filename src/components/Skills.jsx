@@ -21,8 +21,8 @@ export function Skills() {
             <ul className="flex justify-center ">
                 {
                     skillList.map((item) => (
-                        <li key={item.name} className="bg-blue-400 text-white px-3 py-2 m-2">
-                            <span>{item.icon}</span>
+                        <li key={item.name} className="flex flex-col justify-center items-center bg-blue-400 text-white px-3 py-2 m-2 rounded-md text-xl">
+                            <span className="block mb-3 text-4xl">{item.icon}</span>
                             <span>{item.name}</span>
                         </li>
                     ))
