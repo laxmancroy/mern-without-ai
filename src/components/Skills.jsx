@@ -17,11 +17,11 @@ const skillList = [
 export function Skills() {
     return (
         <>
-            <h2 className="text-center text-4xl">Skills</h2>
-            <ul className="flex justify-center ">
+            <h2 className="text-center text-4xl mt-2">Skills</h2>
+            <ul className="flex justify-center">
                 {
                     skillList.map((item) => (
-                        <li key={item.name} className="flex flex-col justify-center items-center bg-blue-400 text-white px-3 py-2 m-2 rounded-md text-xl">
+                        <li key={item.name} className="flex flex-col justify-center items-center bg-blue-400 text-white px-3 py-2 m-2 w-50 rounded-md text-xl hover:bg-blue-600 cursor-pointer">
                             <span className="block mb-3 text-4xl">{item.icon}</span>
                             <span>{item.name}</span>
                         </li>
