@@ -31,9 +31,9 @@ export function Projects() {
                             <img src={item.thumb} alt="" />
                             <h3>{item.name}</h3>
                             <span>{item.description}</span>
-                            <div className="flex justify-around items-center *:w-full *:py-1 *:rounded-md mx-1 my-2">
-                                <button className="bg-gray-100 border-2 border-blue-500 mr-1 text-blue-800">Github</button>
-                                <button className="bg-blue-500 text-white border-2 border-blue-500">Demo</button>
+                            <div className="flex justify-around items-center text-center *:w-full *:py-1 *:rounded-md mx-1 my-2">
+                                <a href="#github" className="block bg-gray-100 border-2 border-blue-500 mr-1 text-blue-800">Github</a>
+                                <a href="#demo" className="block bg-blue-500 text-white border-2 border-blue-500">Demo</a>
                             </div>
                         </div>
                     ))
