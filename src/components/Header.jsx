@@ -16,7 +16,7 @@ export function Header() {
         setIsMenuOpen(!isMenuOpen);
     }
     return (
-        <header className="relative bg-blue-600 text-white p-4">
+        <header id="header" className="relative bg-blue-600 text-white p-4">
             <div className="flex items-center justify-between">
                 <span className="cursor-pointer">Laxman CR</span>
 
