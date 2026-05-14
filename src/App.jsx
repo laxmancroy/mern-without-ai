@@ -7,9 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <div className="bg-red-600">This is App</div>
-      <Skills />
-      <Projects />
+      <div className="container mx-auto">
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
     </>
   )
