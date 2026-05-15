@@ -28,7 +28,7 @@ export function Projects() {
                 {
                     projectLists.map((item) => (
                         <div key={item.name} className="max-w-md">
-                            <img src={item.thumb} alt="" />
+                            <img src={item.thumb} alt="" className="rounded-t-md border-2 border-red-500" />
                             <h3>{item.name}</h3>
                             <span>{item.description}</span>
                             <div className="flex justify-around items-center text-center *:w-full *:py-1 *:rounded-md mx-1 my-2">
